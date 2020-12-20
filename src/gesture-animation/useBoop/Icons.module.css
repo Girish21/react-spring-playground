@@ -1,0 +1,30 @@
+.Wrapepr {
+  position: relative;
+  width: min-content;
+}
+
+.Button {
+  position: relative;
+  z-index: 3;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.Button > svg {
+  stroke: black;
+  fill: white;
+}
+
+.Circle {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  border-radius: 50%;
+  background: hsl(50deg, 100%, 48%);
+}

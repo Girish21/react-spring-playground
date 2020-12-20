@@ -1,0 +1,41 @@
+.card1,
+.card2,
+.card3,
+.card4 {
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+
+.card1 {
+  width: 20vw;
+  height: 20vw;
+  background-image: url(./background.svg);
+}
+
+.card2 {
+  width: 40ch;
+  height: 40ch;
+  background-image: url(./address_bar.svg);
+}
+
+.card3 {
+  width: 45ch;
+  height: 45ch;
+  background-image: url(./content.svg);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg_container {
+  width: 40vw;
+}

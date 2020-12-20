@@ -1,0 +1,14 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  background-color: rgb(0, 183, 255);
+  pointer-events: auto;
+}

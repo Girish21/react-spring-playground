@@ -1,0 +1,26 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: rgb(212, 212, 212);
+}
+
+.card {
+  width: 400px;
+  height: 120px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: rgba(109, 109, 109, 0.2) 5px 5px 10px 5px;
+}
+
+.avatar {
+  margin-right: 1in;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
