@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { FlipCard } from "./flip-card/flip-card";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { Switcher } from "./theme-switcher/Switcher";
 
-ReactDOM.render(<Switcher />, document.getElementById("root"));
+ReactDOM.render(<FlipCard />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
